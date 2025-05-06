@@ -23,11 +23,14 @@ def click_tracker():
     with open("click_log.txt", "a") as f:
         f.write(log_line)
 
-    return redirect("https://alwaysjudgeabookbyitscover.com/", code=302)  # <- Replace with your phishing landing page
+    return redirect("https://alwaysjudgeabookbyitscover.com/", code=302)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)  # Accessible on LAN
-
+# === OPTIONAL: HANDLE FAVICON ===
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
+# === ENTRYPOINT ===
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 10000))  # fallback to 10000 for local
+    app.run(host='0.0.0.0', port=port)
