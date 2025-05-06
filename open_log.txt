@@ -1,0 +1,5 @@
+[2025-05-06 08:27:35.694605] EMAIL OPENED: sethtan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+[2025-05-06 08:28:01.804412] EMAIL OPENED: sethtan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+[2025-05-06 08:28:34.679881] EMAIL OPENED: sethtan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+[2025-05-06 08:28:38.753058] EMAIL OPENED: sethtan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+[2025-05-06 08:28:39.581171] EMAIL OPENED: sethtan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36

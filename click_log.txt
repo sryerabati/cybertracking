@@ -1,0 +1,1 @@
+[2025-05-06 08:29:36.016415] LINK CLICKED: settan@gmail.com - IP: 172.20.10.4 - UA: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
