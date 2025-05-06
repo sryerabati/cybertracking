@@ -16,14 +16,13 @@ def track_pixel(email_id):
 @app.route('/r')
 def click_tracker():
     user = request.args.get('u', 'unknown')
-    ip = request.remote_addr
+    ip = request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip()
     ua = request.headers.get('User-Agent')
 
     log_line = f"[{datetime.now()}] LINK CLICKED: {user} - IP: {ip} - UA: {ua}\n"
     with open("click_log.txt", "a") as f:
         f.write(log_line)
 
-    return redirect("https://alwaysjudgeabookbyitscover.com/", code=302)
 
 # === OPTIONAL: HANDLE FAVICON ===
 @app.route('/favicon.ico')
