@@ -26,7 +26,7 @@ def click_tracker():
     return redirect("https://alwaysjudgeabookbyitscover.com/", code=302)  # <- Replace with your phishing landing page
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)  # Accessible on LAN
+    app.run(host='0.0.0.0', port=10000)  # Accessible on LAN
 
 @app.route('/favicon.ico')
 def favicon():
